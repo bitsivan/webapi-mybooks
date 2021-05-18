@@ -40,6 +40,7 @@ namespace my_books
             services.AddTransient<BookService>();
             services.AddTransient<AuthorService>();
             services.AddTransient<PublisherService>();
+            
 
             services.AddSwaggerGen(c =>
             {
