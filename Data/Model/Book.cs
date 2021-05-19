@@ -17,6 +17,7 @@ namespace Data.Model
         public string Genre { get; set; }
         public string CoverUrl { get; set; }
         public DateTime DateAdded { get; set; }
+        
 
         //Navigation Properties
         public int? PublisherId { get; set; }

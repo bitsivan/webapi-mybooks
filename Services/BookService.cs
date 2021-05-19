@@ -21,6 +21,7 @@ namespace Services
         {
             var _book = new Book()
             {
+                Name=book.Name,
                 Description = book.Description,
                 IsRead = book.IsRead,
                 DateRead = book.DateRead,
